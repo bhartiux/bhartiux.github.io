@@ -1,6 +1,6 @@
 <?php 
-$emailTo = 'yourmail@example.com';
-$siteTitle = 'YourSiteTitle';
+$emailTo = 'bhartip0703@gmail.com';
+$siteTitle = 'Bharti Patel';
 
 error_reporting(E_ALL ^ E_NOTICE); // hide all basic notices from PHP
 
@@ -50,7 +50,7 @@ if(isset($_POST['submitted'])) {
 		
         //Autorespond
 		$respondSubject = 'Thank you for contacting '.$siteTitle;
-		$respondBody = "Your message to $siteTitle has been delivered! \n\nWe will answer back as soon as possible.";
+		$respondBody = "Your message to $siteTitle has been delivered! \n\nI will answer back as soon as possible.";
 		$respondHeaders = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $emailTo;
 		
 		mail($email, $respondSubject, $respondBody, $respondHeaders);
