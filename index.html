@@ -292,7 +292,11 @@
 
 							<p class="text-center">
 								<a target="_blank" href="https://marvelapp.com/147c155"><button class="btn btn-meflat icon-left">View Prototype</button></a>
-							</p>
+							</p></br>
+
+							<h3 style="color:#5CA9D0">Current Catalog</h3>
+							<p><img class="img-responsive img-center" src="assets/Incorta-currentcatalog.jpg"  alt="incorta currentcatalog"></p>
+
 
 							<h3 style="color:#5CA9D0">Design Method</h3>
 							<p><img class="img-responsive img-center" src="assets/Incorta-designmethod.jpg"  alt="incorta solution"></p>
@@ -373,16 +377,22 @@
 							
 							<img class="img-responsive img-center" src="assets/sfbc-solution.jpg"  alt="Solution">
 							
-						    <!--<div class="images-work clearfix">
-							 	
-							 		<img class="work-demo-img" id="1" src="assets/sfbc-home.jpg"  alt="sfbc-home"  />
-							 		<img class="work-demo-img" src="assets/sfbc-activity.jpg"  alt="sfbc-home"  />
-							 		<img class="work-demo-img" src="assets/sfbc-feedback.jpg"  alt="sfbc-home"  />
-							 		<img class="work-demo-img" src="assets/sfbc-profile.jpg"  alt="sfbc-home"  />
+							<!--<div id="img-viewer">
+							    <div class="images-work clearfix">							 	
+										<img class="work-demo-img" src="assets/sfbc-home.jpg"  alt="sfbc-home" />
+										<img class="work-demo-img" src="assets/sfbc-activity.jpg"  alt="sfbc-activity"  />
+								 		<img class="work-demo-img" src="assets/sfbc-feedback.jpg"  alt="sfbc-feedback"  />
+								 		<img class="work-demo-img" src="assets/sfbc-profile.jpg"  alt="sfbc-profile" />						
+								</div>-->
+								<!-- image zoom -->
+							    <!--<div id="img-overlay" class="clearfix">
+							    	<span class="img-overlay-close">X</span>
+							        <img id="work-demo-large" src="" alt="sfbc-home" />	
+							     
+							    </div>
+							  </div>-->
 
-							 </div>-->
 
-					
 							<p class="text-center">
 								<a target="_blank" href="https://marvelapp.com/2j05jge"><button class="btn btn-meflat icon-left">View Prototype</button></a>
 							</p>
@@ -424,8 +434,7 @@
 							
 							<h3 style="color:#E47723">Results & Reflections</h3>
 							<p>In two weeks I got to understand the pain points of the bikers and provided the solutions based on those pain points to improve the bicycling experience. To make this app successful I would do more usability testing and more research with bike riders. I would like to work on other features, too. As the user base grows I would start advertising so that it gets more traffic to the app.</p>
-
-							<!--<button class="btn btn-meflat icon-left top-btn"> Top </button>-->
+															
 							
 						</div>
 						
@@ -433,7 +442,7 @@
 
 					<!-- ==============================================
 					SINGLE PROJECT ITEM
-					=============================================== -->	
+					=============================================== -->	 
 					<article class="project-item web-design">
 						
 						<img class="img-responsive project-image" src="assets/ph-mockup.jpg"  alt=""><!--Project thumb -->
@@ -538,20 +547,27 @@
 							data-client="Client" 
 							data-link="www.example.com,https://www.google.com" 
 							data-descr="A small description goes here." 
-							data-images="assets/ross-portal.jpg,assets/ross-portal01.jpg">
+							data-images="assets/ross-portal.jpg,assets/ross-portal1.jpg,assets/ross-portal2.jpg">
 							
 							<h3 style="color:#1266B3">Overview</h3>
 							<p>RossConnect is the portal that can be accessed by both employees and consultants of Ross Stores IT. I was involved in creating meaningful and compelling designs, so that it can help users become more productive and  come visit this portal frequently.</p>
 
 
-							<h3 style="color:#1266B3">Ross IT-Icons</h3>
+							<h3 style="color:#1266B3">Ross IT-icons</h3>
 							<p>Designed vector based icons for all team spaces and the new feature they introduce called my app catalog for their users.</p>
 
 							<img class="img-responsive img-center" src="assets/ross-icon.jpg"  alt="Space Icons"><br/>
 							<img class="img-responsive img-center" src="assets/ross-appcatalog.jpg" alt="My app icons"><br/>
 
-							<h3 style="color:#1266B3">Ross IT-Banners</h3>
-							<p>Worked with all different teams in the IT department and based on their team requirements, I designed banners for all different team spaces for their landing pages.</p>
+							<h3 style="color:#1266B3">Ross IT-Landing Pages & Banners</h3>
+							<p>Worked with all different teams in the IT department and based on their team requirements, I helped RossConnect team designed banners and landing pages for all different team spaces.</p>
+							
+							<img class="img-responsive img-center" src="assets/rossconnect-humanperf.jpg"  alt="Human Performance">
+							<img class="img-responsive img-center" src="assets/rossconnect-storesys.jpg"  alt="Store System">
+							<img class="img-responsive img-center" src="assets/rossconnect-helpdesk.jpg"  alt="Help Desk">
+							<img class="img-responsive img-center" src="assets/rossconnect-ea.jpg"  alt="EA">
+
+							<img class="img-responsive img-center" src="assets/ross-banner.jpg"  alt="Ross banner">
 							<img class="img-responsive img-center" src="assets/ross-banner.jpg"  alt="Ross banner">
 							<img class="img-responsive img-center" src="assets/ross-banner01.jpg"  alt="Ross banner1"><br/>
 
@@ -655,11 +671,13 @@
 			<!-- ==============================================
 			PROJECT PREVIEW MODAL (Do not alter this markup)
 			=============================================== -->	
+			<button class="btn btn-meflat scrollToTop"> Scroll To Top </button>	
+			
 			<div id="project-modal" class="modal fade">
 			
 				<div class="modal-dialog">
 				
-					<div class="modal-content">
+					<div class="modal-content" id="modal-content">
 					
 						<div class="modal-header">
 						
@@ -818,6 +836,9 @@
 		<script src="js/jquery.easypiechart.js"></script>
 		<script src="js/contact.js"></script>
 		<script src="js/meflat.js"></script>
+
+		<script src="js/test.js"></script>
+		
 	</body>
 	
 </html>
