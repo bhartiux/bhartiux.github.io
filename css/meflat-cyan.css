@@ -1428,7 +1428,7 @@ a:focus,
       width: 23%;
 }
 .threeImg {
-      width: 32%;
+      width: 31%;
       border: 1px solid #ccc;
 }
 .twoImg {
@@ -1502,4 +1502,20 @@ h3 {
 
 .acecon h3 {
     color:#E67817;
+}
+
+@media only screen  and (max-width : 560px) {
+    .img-viewer .work-demo-img {    
+            float: none;
+    }
+    .fourImg, .threeImg, .twoImg {
+            width: 45%;
+    }
+    .img-overlay #work-demo-large {
+        width: 100%;    
+    }
+    .img-overlay-close {
+        width: 100%;
+        right: 0;
+    }
 }
