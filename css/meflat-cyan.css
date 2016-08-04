@@ -1414,25 +1414,33 @@ a:focus,
 
 
 /* css for images and view larger */
-#img-viewer {
+.img-viewer {
     position: relative;
 }
-#img-viewer .work-demo-img {
+.img-viewer .work-demo-img {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
     position: relative;
-    width: 23%;
     float: left;
 }
-#img-overlay {
+.fourImg{
+      width: 23%;
+}
+.threeImg {
+      width: 32%;
+      border: 1px solid #ccc;
+}
+.twoImg {
+      width: 48%;
+}
+.img-overlay {
 	width: 100%;
 	display: none;
 	text-align: center;
 	background: #fff;
-    border: 1px solid #ccc;
-    border-radius:6px;
-    padding: 15px;
+    
+    padding: 2px;
     position: absolute;
     top: 0;
     z-index:999;
@@ -1443,15 +1451,15 @@ a:focus,
     font-family: verdana;
     font-size: 24px;
     position: relative;
-    right: 15px;
-    top: 0px;
+    right: -28px;
+    top: -20px;
     color:#999;
     display: block;
 }
 .img-overlay-close:hover {
 	color: #000;
 } 
-#img-overlay #work-demo-large {
+.img-overlay #work-demo-large {
     width: auto;
     margin: 10px auto;
 }
@@ -1463,13 +1471,35 @@ a:focus,
     display: none;
 }
 .inner-overlay {
-    margin: 20px 0 50px 0;
-    border: 1px solid #ccc;
+    margin: 20px auto 50px auto;
     padding: 15px 0;
 }
 
-h3 {font-family: 'Titillium Web', sans-serif;
-font-weight: bold;
+h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
 }
 
+.incorta h3 {
+    color: #5CA9D0;
+}
 
+.sfbc h3 {
+    color:#E47723;
+}
+
+.progresshardware h3 {
+    color:#A60D00;
+}
+
+.rossconnect h3 {
+    color:#1266B3;
+}
+
+.drishticon h3 {
+    color:#1E3CC0;
+}
+
+.acecon h3 {
+    color:#E67817;
+}

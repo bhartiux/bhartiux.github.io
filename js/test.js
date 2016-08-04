@@ -5,11 +5,11 @@ $(document).ready(function(){
 	
 	$('body').on('click', '.work-demo-img', function() {   
 		var url = $(this).attr('src');
-		$('#img-overlay #work-demo-large').attr('src', url).css('display', 'block').parent().fadeIn("slow");
+		$(this).parents('.img-viewer').find('#work-demo-large').attr('src', url).css('display', 'block').parents('.img-overlay').fadeIn("slow");
 	});
 	
 	$('body').on('click', '.img-overlay-close', function(){
-		$(this).parent().fadeOut("slow");
+		$(this).parents('.img-overlay').fadeOut("slow");
 	})
 	
 	
