@@ -1504,7 +1504,7 @@ h3 {
     color:#E67817;
 }
 
-@media only screen  and (max-width : 560px) {
+/*@media only screen  and (max-width : 560px) {
     .img-viewer .work-demo-img {    
             float: none;
     }
@@ -1518,4 +1518,4 @@ h3 {
         width: 100%;
         right: 0;
     }
-}
+}*/
