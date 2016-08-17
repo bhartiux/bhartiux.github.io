@@ -1519,3 +1519,29 @@ h3 {
         right: 0;
     }
 }
+
+
+#main-nav .nav a #logoImg {
+    background: transparent url("../assets/logo-bp-white.png") no-repeat scroll 0 0;
+    width: 63px;
+    height: 95px;
+    margin: 5px;
+}
+/*#main-nav .nav a #logoImg:hover {
+    background: transparent url("../assets/logo-bp-blue.png") no-repeat scroll 0 0;
+    width: 63px;
+    height: 95px;
+    margin: 5px;
+}*/
+#main-nav.scrolled .nav a #logoImg {
+    background: transparent url("../assets/logo-bp-drkgreysm.png") no-repeat scroll 0 0;
+    width: 50px;
+    height: 80px;
+    margin: 5px;
+}
+#main-nav.scrolled .nav a #logoImg:hover {
+    background: transparent url("../assets/logo-bp-bluesm.png") no-repeat scroll 0 0;
+    width: 50px;
+    height: 80px;
+    margin: 5px;
+}
